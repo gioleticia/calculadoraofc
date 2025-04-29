@@ -1,0 +1,51 @@
+
+body{
+
+    font-family: sans-serif;
+    background-image: url(fundo.jpg);
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.container{
+    height: 40px;
+    background-color: hsl(60, 22%, 48%);
+    width: 550px;
+    height: 450px;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 5px solid beige;
+
+}
+
+
+input, select, option{
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 10px;
+    border-color: rgb(161, 168, 156) ;
+    border-radius: 10px;
+}
+
+
+button{
+    background-color: hsl(60, 27%, 55%);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    
+
+}
+
+button:hover{
+    opacity: 0.8;
+    background: #4b4f26;
+}
